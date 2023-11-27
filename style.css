@@ -1,13 +1,14 @@
 body{
     margin: 0;
     background-color: white;
+    font-family: 'League Spartan', sans-serif;
 }
 
 .content{
-    min-height: 160svh;
+    min-height: 140svh;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     /* gap: ; */
 }
