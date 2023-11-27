@@ -50,6 +50,15 @@ body{
     margin-bottom: 1rem;
 }
 
+.rating-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
 .star-review-card{
     width: 20rem;
     background-color: hsl(300, 24%, 96%);
@@ -66,10 +75,6 @@ body{
 
 .star-review-card img{
     margin-top: 0.7rem;
-}
-
-.BestTech-review-card{
-    margin-bottom: 2rem;
 }
 
 .customer-review-card{
