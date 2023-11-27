@@ -5,7 +5,6 @@ body{
 
 .content{
     min-height: 160svh;
-    width: 24rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -28,7 +27,9 @@ body{
 }
 
 .star-review-card{
+    width: 20rem;
     background-color: hsl(300, 24%, 96%);
+    color: hsl(300, 43%, 22%);
     text-align: center;
 }
 
