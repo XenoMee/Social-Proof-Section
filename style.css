@@ -5,7 +5,7 @@ body{
 }
 
 .content{
-    min-height: 170svh;
+    min-height: 180svh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -67,10 +67,28 @@ body{
     max-width: 2.5rem;
     float: left;
     border-radius: 50%;
+    margin-right: 1.5rem;
+    object-fit: cover;
+}
+
+.customer-name,
+.customer-status{
+    margin: 0;
+}
+
+.customer-name{
+    margin: 0.3rem 0rem;
+    font-size: 1rem;
 }
 
 .customer-status{
     color: hsl(333, 80%, 67%);
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+.customer-review{
+    line-height: 1.5;
 }
 
 
