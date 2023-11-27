@@ -1,4 +1,16 @@
+body{
+    margin: 0;
+    background-color: white;
+}
 
+.content{
+    min-height: 160svh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    /* gap: ; */
+}
 
 .attribution {
     font-size: 11px;
