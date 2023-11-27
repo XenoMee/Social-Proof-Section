@@ -5,6 +5,7 @@ body{
 }
 
 .content{
+    background: url("./images/bg-pattern-top-mobile.svg") left top no-repeat, url("./images/bg-pattern-bottom-mobile.svg") center center no-repeat;
     min-height: 180svh;
     display: flex;
     flex-direction: column;
