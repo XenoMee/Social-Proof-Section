@@ -184,7 +184,7 @@ body{
 
     .report-gurup-review{
         position: relative;
-        left: 2rem;
+        left: 2.5rem;
     }
     
     .rating-section{
@@ -194,7 +194,7 @@ body{
 
     .rating-section div:last-child{
         position: relative;
-        left: 4rem;
+        left: 5.5rem;
     }
 
     .customer-review-card{
