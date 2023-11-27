@@ -5,12 +5,12 @@ body{
 }
 
 .content{
-    min-height: 140svh;
+    min-height: 170svh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* gap: ; */
+    gap: 1rem;
 }
 
 .section-title,
@@ -31,11 +31,17 @@ body{
     width: 20rem;
     background-color: hsl(300, 24%, 96%);
     color: hsl(300, 43%, 22%);
+    border-radius: 0.5rem;
     text-align: center;
 }
 
 .star-review-card h2 {
-    /* margin: 0; */
+    font-size: 1rem;
+    margin: 0.5rem 0rem;
+}
+
+.star-review-card img{
+    margin-top: 0.7rem;
 }
 
 .customer-review-card{
