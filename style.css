@@ -33,15 +33,8 @@ body{
     margin-bottom: 1rem;
 }
 
-.review-card{
-    width: 20rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 1rem;
-}
-
 .star-review-card{
+    width: 20rem;
     background-color: hsl(300, 24%, 96%);
     color: hsl(300, 43%, 22%);
     border-radius: 0.5rem;
