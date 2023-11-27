@@ -15,6 +15,7 @@ body{
 }
 
 .container{
+    width: 20rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -22,15 +23,22 @@ body{
     gap: 1rem;
 }
 
+.top-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+
 .section-title,
 .section-description{
     margin: 0;
-    text-align: center;
 }
 
 .section-title{
     max-width: 15rem;
-    margin-bottom: 0.5rem;
     color: hsl(300, 43%, 22%);
 }
 
@@ -72,6 +80,12 @@ body{
     color: hsl(300, 24%, 96%);
 }
 
+.customer-profile{
+    max-width: 10rem;
+    min-height: 2.5rem;
+    margin-bottom: 2rem;
+}
+
 .customer-profile-picture{
     max-width: 2.5rem;
     float: left;
@@ -86,14 +100,13 @@ body{
 }
 
 .customer-name{
-    margin: 0.3rem 0rem;
+    margin: 0.5rem 0rem;
     font-size: 1rem;
 }
 
 .customer-status{
     color: hsl(333, 80%, 67%);
     font-weight: 400;
-    margin-bottom: 1.5rem;
 }
 
 .customer-review{
