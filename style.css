@@ -100,7 +100,7 @@ body{
 }
 
 .customer-name{
-    margin: 0.5rem 0rem;
+    margin-bottom: 0.3rem;
     font-size: 1rem;
 }
 
@@ -116,8 +116,8 @@ body{
 .attribution {
     font-size: 0.9rem;
     text-align: center;
-  }
+}
   .attribution a {
     color: hsl(228, 45%, 44%);
     text-decoration: none;
-  }
+}
