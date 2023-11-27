@@ -51,6 +51,10 @@ body{
     margin-top: 0.7rem;
 }
 
+.BestTech-review-card{
+    margin-bottom: 2rem;
+}
+
 .customer-review-card{
     max-width: 20rem;
     background-color: hsl(300, 43%, 22%);
