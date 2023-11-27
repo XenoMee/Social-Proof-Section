@@ -56,10 +56,17 @@ body{
 }
 
 .customer-review-card{
-    max-width: 20rem;
+    max-width: 16rem;
+    padding: 2rem;
     background-color: hsl(300, 43%, 22%);
     border-radius: 0.5rem;
     color: hsl(300, 24%, 96%);
+}
+
+.customer-profile-picture{
+    max-width: 2.5rem;
+    float: left;
+    border-radius: 50%;
 }
 
 .customer-status{
