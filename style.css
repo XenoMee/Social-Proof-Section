@@ -38,14 +38,24 @@ body{
     /* margin: 0; */
 }
 
+.customer-review-card{
+    max-width: 20rem;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 0.5rem;
+    color: hsl(300, 24%, 96%);
+}
 
+.customer-status{
+    color: hsl(333, 80%, 67%);
+}
 
 
 
 .attribution {
-    font-size: 11px;
+    font-size: 0.8rem;
     text-align: center;
   }
   .attribution a {
     color: hsl(228, 45%, 44%);
+    text-decoration: none;
   }
