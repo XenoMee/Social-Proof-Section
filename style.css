@@ -5,6 +5,7 @@ body{
 
 .content{
     min-height: 160svh;
+    width: 24rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -15,6 +16,7 @@ body{
 .section-title,
 .section-description{
     margin: 0;
+    text-align: center;
 }
 
 .section-title{
@@ -24,6 +26,18 @@ body{
 .section-description{
     color: hsl(303, 10%, 53%);
 }
+
+.star-review-card{
+    
+}
+
+.star-review-card h2 {
+    /* margin: 0; */
+}
+
+
+
+
 
 .attribution {
     font-size: 11px;
