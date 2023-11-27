@@ -12,6 +12,19 @@ body{
     /* gap: ; */
 }
 
+.section-title,
+.section-description{
+    margin: 0;
+}
+
+.section-title{
+    color: hsl(300, 43%, 22%);
+}
+
+.section-description{
+    color: hsl(303, 10%, 53%);
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
