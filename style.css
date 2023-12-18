@@ -122,7 +122,10 @@ body{
         display: grid;
         grid-template-columns: repeat(6,1fr);
         grid-template-rows: repeat(2, 1fr);
+        justify-items: start;
+        align-items: center;
         text-align: start;
+        margin: 0;
     }
 
     .top-section{
