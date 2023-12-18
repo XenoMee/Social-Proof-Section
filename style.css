@@ -154,11 +154,21 @@ body{
     }
 
     .star-review-card{
+        max-width: 27rem;
         display: flex;
         justify-content: flex-start;
         align-items: center;
         gap: 1.5rem;
         padding: 1rem 2rem;
+        margin-left: 1.5rem;
+    }
+
+    .star-review-card:not(:first-child){
+        margin-left: 4.5rem;
+    }
+
+    .star-review-card:last-child{
+        margin-left: 8rem;
     }
 
     .star-rating{
