@@ -117,77 +117,15 @@ body{
     }
 
     .container{
-        width: 61.3em;
+        width: 60rem;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: min-content;
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: repeat(2, 1fr);
+        text-align: start;
     }
 
     .top-section{
-        width: 120%;
-        grid-row: span 2;
-        text-align: start;
-        gap: 1.5em;
-        margin-bottom: 3em;
-    }
-
-    .top-section-title{
-        max-width: 10em;
-        font-size: 2.9em;
-    }
-
-    .top-section-description{
-        margin: 0;
-        max-width: 23em;
-    }
-
-    .star-review-card{
-        width: 25em;
-        padding: 1em;
-        text-align: left;
-    }
-    
-    .star-review-card h2 {
-        display: inline-block;
-        margin-left: 1.5em;
-        padding: 0;
-    }
-    
-    .star-review-card img:first-child{
-        margin-left: 1em;
-    }
-
-    .star-review-card img{
-        margin-top: 0;
-    }
-
-    .report-gurup-review{
-        position: relative;
-        left: 2.5rem;
-    }
-    
-    .rating-section{
         grid-column: span 2;
-        margin: 0;
     }
 
-    .rating-section div:last-child{
-        position: relative;
-        left: 5.5rem;
-    }
-
-    .customer-review-card{
-        margin-left: 0.5em;
-        grid-row: 3 / 4;
-    }
-
-    .irene-review-card{
-        position: relative;
-        top: 1.5rem;
-    }
-
-    .anne-review-card{
-        position: relative;
-        top: 2.5em;
-    }
 }
