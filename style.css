@@ -147,6 +147,7 @@ body{
         display: flex;
         justify-content: flex-start;
         align-items: center;
+        gap: 1.5rem;
         grid-column: 1 / 7;
     }
 
