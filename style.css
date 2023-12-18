@@ -43,7 +43,7 @@ body{
     background-color: hsl(300, 24%, 96%);
     color: hsl(300, 43%, 22%);
     border-radius: 0.5rem;
-    /* padding: .5rem; */
+    padding: .5rem;
     margin-bottom: 1rem;
 }
 
