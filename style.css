@@ -106,7 +106,7 @@ body{
     text-decoration: none;
 }
 
-@media (min-width:61.3em) {
+@media (min-width:70rem) {
 
     body{
         background: url("./images/bg-pattern-top-desktop.svg") top no-repeat,
@@ -118,7 +118,7 @@ body{
     }
 
     .container{
-        width: 60rem;
+        width: 70rem;
         display: grid;
         grid-template-columns: repeat(6,1fr);
         grid-template-rows: repeat(2, 1fr);
@@ -144,6 +144,10 @@ body{
     .rating-section{
         justify-self: stretch;
         grid-column: 4 / 7;
+    }
+
+    .report-gurup-review{
+        
     }
 
     .customer-review-section{
