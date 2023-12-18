@@ -133,8 +133,10 @@ body{
     }
 
     .customer-review-section{
-        /* display: flex; */
-        /* grid-column: 1 / 7; */
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        grid-column: 1 / 7;
     }
 
 }
