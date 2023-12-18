@@ -24,6 +24,10 @@ body{
     margin: 3rem 0rem;
 }
 
+.top-section{
+    /* margin-bottom: 2rem; */
+}
+
 .top-section-title{
     color: hsl(300, 43%, 22%);
     padding: 0rem 1.5rem;
@@ -35,21 +39,11 @@ body{
     font-size: 1.08rem;
 }
 
-.rating-section{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    margin-bottom: 2rem;
-}
-
 .star-review-card{
-    width: 20rem;
     background-color: hsl(300, 24%, 96%);
     color: hsl(300, 43%, 22%);
     border-radius: 0.5rem;
-    text-align: center;
+    margin-bottom: 1rem;
 }
 
 .star-review-card h2 {
