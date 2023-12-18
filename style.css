@@ -128,4 +128,13 @@ body{
         grid-column: span 2;
     }
 
+    .rating-section{
+        grid-column: 4 / 7;
+    }
+
+    .customer-review-section{
+        /* display: flex; */
+        /* grid-column: 1 / 7; */
+    }
+
 }
