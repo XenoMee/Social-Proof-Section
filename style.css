@@ -139,6 +139,7 @@ body{
     }
 
     .rating-section{
+        justify-self: stretch;
         grid-column: 4 / 7;
     }
 
