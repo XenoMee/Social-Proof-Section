@@ -27,7 +27,7 @@ body{
 .top-section-title{
     color: hsl(300, 43%, 22%);
     padding: 0rem 1.5rem;
-    /* line-height: 0.8; */
+    line-height: 0.8;
 }
 
 .top-section-description{
