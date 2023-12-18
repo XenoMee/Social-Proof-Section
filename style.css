@@ -138,16 +138,13 @@ body{
     }
 
     .top-section-description{
+        font-size: 1rem;
         margin-bottom: 0;
     }
 
     .rating-section{
         justify-self: stretch;
         grid-column: 4 / 7;
-    }
-
-    .report-gurup-review{
-        
     }
 
     .customer-review-section{
