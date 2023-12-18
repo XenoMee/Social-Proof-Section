@@ -122,8 +122,7 @@ body{
         display: grid;
         grid-template-columns: repeat(6,1fr);
         grid-template-rows: repeat(2, 1fr);
-        justify-items: start;
-        align-items: center;
+        place-items: start;
         text-align: start;
         margin: 0;
     }
@@ -138,6 +137,10 @@ body{
         font-size: 3rem;
     }
 
+    .top-section-description{
+        margin-bottom: 0;
+    }
+
     .rating-section{
         justify-self: stretch;
         grid-column: 4 / 7;
@@ -146,9 +149,21 @@ body{
     .customer-review-section{
         display: flex;
         justify-content: flex-start;
-        align-items: center;
+        align-items: start;
         gap: 1.5rem;
         grid-column: 1 / 7;
+    }
+
+    .customer-review-card{
+        margin-bottom: 0;
+    }
+
+    .irene-review-card{
+        margin-top: 1rem;
+    }
+
+    .anne-review-card{
+        margin-top: 2rem;
     }
 
 }
