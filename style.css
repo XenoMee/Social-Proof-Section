@@ -57,7 +57,7 @@ body{
 }
 
 .customer-review-card{
-    padding: 2rem 1.5rem 1rem 1.5rem;
+    padding: 2rem 1.5rem;
     background-color: hsl(300, 43%, 22%);
     color: hsl(300, 24%, 96%);
     border-radius: 0.5rem;
@@ -85,9 +85,6 @@ body{
     line-height: 1.2;
 }
 
-.customer-name{
-    font-size: 1rem;
-}
 
 .customer-status{
     color: hsl(333, 80%, 67%);
@@ -95,7 +92,8 @@ body{
 }
 
 .customer-review{
-    line-height: 1.5;
+    font-size: 1.06rem;
+    margin-bottom: 0;
 }
 
 .attribution {
