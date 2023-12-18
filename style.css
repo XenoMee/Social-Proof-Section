@@ -32,7 +32,7 @@ body{
 
 .top-section-description{
     color: hsl(303, 10%, 53%);
-    /* font-size: 1.08rem; */
+    font-size: 1.08rem;
 }
 
 .rating-section{
