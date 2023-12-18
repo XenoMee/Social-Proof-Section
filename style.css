@@ -52,6 +52,11 @@ body{
     margin-bottom: 3rem;
 }
 
+.star-rating img{
+    max-width: 1rem;
+    object-fit: cover;
+}
+
 .star-review-title {
     font-size: 1rem;
     margin-bottom: 0;
@@ -152,6 +157,13 @@ body{
         justify-content: flex-start;
         align-items: center;
         gap: 1.5rem;
+    }
+
+    .star-rating{
+        display: grid;
+        grid-template-columns: repeat(5,auto);
+        column-gap: .3rem;
+        place-items: center;
     }
 
     .customer-review-section{
