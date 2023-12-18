@@ -130,9 +130,10 @@ body{
         margin-bottom: 0;
     }
 
-    /* .top-section-title{
+    .top-section-title{
         padding: 0;
-    } */
+        font-size: 3rem;
+    }
 
     .rating-section{
         grid-column: 4 / 7;
