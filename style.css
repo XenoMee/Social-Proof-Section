@@ -107,6 +107,7 @@ body{
 }
 
 @media (min-width:61.3em) {
+
     body{
         background: url("./images/bg-pattern-top-desktop.svg") top no-repeat,
         url("./images/bg-pattern-bottom-desktop.svg") bottom no-repeat;
@@ -126,7 +127,12 @@ body{
 
     .top-section{
         grid-column: span 2;
+        margin-bottom: 0;
     }
+
+    /* .top-section-title{
+        padding: 0;
+    } */
 
     .rating-section{
         grid-column: 4 / 7;
