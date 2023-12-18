@@ -147,6 +147,13 @@ body{
         grid-column: 4 / 7;
     }
 
+    .star-review-card{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
     .customer-review-section{
         display: flex;
         justify-content: flex-start;
