@@ -82,6 +82,7 @@ body{
 .customer-name,
 .customer-status{
     margin-bottom: 0;
+    line-height: 1.2;
 }
 
 .customer-name{
