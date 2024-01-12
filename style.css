@@ -102,15 +102,6 @@ body{
     margin-bottom: 0;
 }
 
-.attribution {
-    font-size: 0.9rem;
-    text-align: center;
-}
-  .attribution a {
-    color: hsl(228, 45%, 44%);
-    text-decoration: none;
-}
-
 @media (min-width:70rem) {
 
     body{
