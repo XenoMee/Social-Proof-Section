@@ -57,6 +57,7 @@ video {
 /* General */
 body {
   background-color: var(--clr-neutral-100);
+  color: var(--clr-neutral-100);
   font-size: var(--fs-default);
   font-family: var(--ff-base);
   font-weight: var(--fw-regular);
@@ -70,24 +71,14 @@ body {
 section {
   --content-spacing: 1rem;
   --content-padding: 1rem;
+  text-align: center;
 
   display: grid;
 }
 
-.container {
-  width: 20rem;
-  text-align: center;
-  margin: 3rem 0rem;
-}
-
-.top-section {
-  margin-bottom: 2rem;
-}
-
-.top-section-title {
-  color: hsl(300, 43%, 22%);
-  padding: 0rem 1.5rem;
-  line-height: 0.8;
+.section__title {
+  color: var(--clr-primary-800);
+  width: 12ch;
 }
 
 .top-section-description {
