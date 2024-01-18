@@ -81,6 +81,13 @@ section {
   display: grid;
 }
 
+blockquote {
+  display: grid;
+  grid-template-columns: 0.3fr 0.7fr;
+  align-items: center;
+  justify-items: start;
+}
+
 /* Typography */
 .section__title {
   color: var(--clr-primary-800);
@@ -123,6 +130,10 @@ section {
 .customer-picture {
   max-width: 3rem;
   border-radius: 50%;
+}
+
+.customer-quote {
+  grid-column: span 2;
 }
 
 /* Utility classes */
