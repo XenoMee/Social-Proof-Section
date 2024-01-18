@@ -87,7 +87,6 @@ blockquote {
   display: grid;
   grid-template-columns: min-content 1fr;
   align-items: center;
-  justify-items: start;
   gap: 1.5rem;
 }
 
