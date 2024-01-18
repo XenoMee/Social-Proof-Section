@@ -120,6 +120,11 @@ section {
   text-align: start;
 }
 
+.customer-picture {
+  max-width: 3rem;
+  border-radius: 50%;
+}
+
 /* Utility classes */
 .has-flex {
   display: flex;
