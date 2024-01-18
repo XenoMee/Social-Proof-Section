@@ -150,6 +150,13 @@ section {
   margin-bottom: 0;
 }
 
+/* Utility classes */
+.has-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 @media (min-width: 70rem) {
   body {
     background: url("./images/bg-pattern-top-desktop.svg") top left no-repeat,
