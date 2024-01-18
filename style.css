@@ -102,8 +102,14 @@ section {
   margin-bottom: 1rem;
 }
 
-.rating:last-child {
-  margin-bottom: 3rem;
+.rating::before {
+  content: "";
+  width: 30%;
+  height: 1rem;
+  display: block;
+  margin: 0 auto;
+  background-image: url("./images/icon-star.svg");
+  background-repeat: space;
 }
 
 .customer-review-card {
