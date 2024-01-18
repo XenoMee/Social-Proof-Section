@@ -74,7 +74,7 @@ body {
 
 section {
   --content-spacing: 1rem;
-  --content-padding: 1rem;
+  --content-padding: 2rem 1.5rem;
   --fs-title: 2rem;
   text-align: center;
 
@@ -112,12 +112,11 @@ section {
   background-repeat: space;
 }
 
-.customer-review-card {
-  padding: 2rem 1.5rem;
-  background-color: hsl(300, 43%, 22%);
-  color: hsl(300, 24%, 96%);
+.customer-quote {
+  padding: var(--content-padding);
+  background-color: var(--clr-primary-800);
+  color: var(--clr-neutral-200);
   border-radius: 0.5rem;
-  margin-bottom: 1rem;
   text-align: start;
 }
 
