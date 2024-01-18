@@ -73,12 +73,13 @@ body {
 }
 
 section {
-  --content-spacing: 1rem;
+  --content-spacing: 2.5rem;
   --content-padding: 2.2rem;
   --fs-title: 2rem;
   text-align: center;
 
   display: grid;
+  gap: var(--content-spacing);
 }
 
 blockquote {
@@ -108,6 +109,10 @@ blockquote {
   border-radius: 0.5rem;
   padding: 0.8rem;
   margin-bottom: 1rem;
+}
+
+.review-title {
+  font-size: 1.1rem;
 }
 
 .quote {
