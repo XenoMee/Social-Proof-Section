@@ -74,7 +74,7 @@ body {
 
 section {
   --content-spacing: 1rem;
-  --content-padding: 2rem;
+  --content-padding: 2.2rem;
   --fs-title: 2rem;
   text-align: center;
 
@@ -86,7 +86,7 @@ blockquote {
   grid-template-columns: 0.3fr 1fr;
   align-items: center;
   justify-items: start;
-  gap: 1.5rem 0.5rem;
+  gap: 1.5rem 1rem;
 }
 
 /* Typography */
@@ -139,6 +139,7 @@ blockquote {
 
 .customer-status {
   color: var(--clr-primary-400);
+  font-weight: var(--fw-light);
 }
 
 .customer-quote {
