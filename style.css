@@ -14,17 +14,20 @@
   --fw-bold: 700;
 }
 
+/* A more-intuitive box-sizing model */
 *,
 *::after,
 *::before {
   box-sizing: border-box;
 }
 
+/* Remove default margin and padding */
 * {
   margin: 0;
   padding: 0;
 }
 
+/* Avoid text overflows */
 p,
 h1,
 h2,
@@ -35,11 +38,13 @@ h6 {
   overflow-wrap: break-word;
 }
 
+/* Reduce line-height for large text */
 h1,
 h2 {
   line-height: 1.1;
 }
 
+/* Make images responsive */
 img,
 picture,
 iframe,
@@ -49,20 +54,17 @@ video {
   display: block;
 }
 
+/* General */
 body {
-  margin: 0;
-  background-color: white;
-  background: url("./images/bg-pattern-top-mobile.svg") top left no-repeat,
-    url("./images/bg-pattern-bottom-mobile.svg") bottom right no-repeat;
-  background-size: contain;
-  font-family: "League Spartan", sans-serif;
+  background-color: var(--clr-neutral-100);
+  font-size: var(--fs-default);
+  font-family: var(--ff-base);
+  font-weight: var(--fw-regular);
   line-height: 1.5;
-}
 
-.content {
   min-height: 100svh;
   display: grid;
-  place-items: center;
+  place-content: center;
 }
 
 .container {
