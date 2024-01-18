@@ -120,36 +120,6 @@ section {
   text-align: start;
 }
 
-.customer-profile {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 1.3rem;
-  margin-bottom: 1.2rem;
-}
-
-.customer-profile-picture {
-  max-width: 2rem;
-  border-radius: 50%;
-  object-fit: cover;
-}
-
-.customer-name,
-.customer-status {
-  margin-bottom: 0;
-  line-height: 1.2;
-}
-
-.customer-status {
-  color: hsl(333, 80%, 67%);
-  font-weight: 400;
-}
-
-.customer-review {
-  font-size: 1.06rem;
-  margin-bottom: 0;
-}
-
 /* Utility classes */
 .has-flex {
   display: flex;
