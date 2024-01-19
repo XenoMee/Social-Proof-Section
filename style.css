@@ -146,7 +146,7 @@ blockquote {
 }
 
 .quote {
-  max-width: 25rem;
+  max-width: 22rem;
   padding: var(--content-padding);
   background-color: var(--clr-primary-800);
   color: var(--clr-neutral-200);
