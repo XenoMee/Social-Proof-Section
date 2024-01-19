@@ -174,8 +174,10 @@ blockquote {
     place-items: start;
   }
 
-  header {
+  .intro {
+    grid-column: 1/ 2;
     text-align: start;
+    max-width: 25rem;
   }
 
   .section__title {
@@ -186,70 +188,11 @@ blockquote {
     flex-direction: row;
   }
 
+  .ratings {
+    grid-column: 2/3;
+  }
+
   .quotes {
     grid-column: span 2;
-  }
-  .quote:not(:first-child) {
-    transform: translateY(1rem);
-  }
-
-  .top-section-title {
-    padding: 0;
-    font-size: 3rem;
-  }
-
-  .top-section-description {
-    font-size: 1rem;
-    margin-bottom: 0;
-  }
-
-  .rating-section {
-    justify-self: stretch;
-    grid-column: 4 / 7;
-  }
-
-  .star-review-card {
-    max-width: 27rem;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 1.5rem;
-    padding: 1rem 2rem;
-    margin-left: 1.5rem;
-  }
-
-  .star-review-card:not(:first-child) {
-    margin-left: 4.5rem;
-  }
-
-  .star-review-card:last-child {
-    margin-left: 8rem;
-  }
-
-  .star-rating {
-    display: grid;
-    grid-template-columns: repeat(5, auto);
-    column-gap: 0.3rem;
-    place-items: center;
-  }
-
-  .customer-review-section {
-    display: flex;
-    justify-content: flex-start;
-    align-items: start;
-    gap: 1.5rem;
-    grid-column: 1 / 7;
-  }
-
-  .customer-review-card {
-    margin-bottom: 0;
-  }
-
-  .irene-review-card {
-    margin-top: 1rem;
-  }
-
-  .anne-review-card {
-    margin-top: 2rem;
   }
 }
