@@ -146,6 +146,11 @@ blockquote {
   margin-bottom: 1rem;
 }
 
+/* .quotes {
+  max-width: 25rem;
+  margin: 0 auto;
+} */
+
 .quote {
   /* max-width: 20rem; */
   padding: var(--content-padding);
