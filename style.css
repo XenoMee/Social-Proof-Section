@@ -132,7 +132,7 @@ blockquote {
   color: var(--clr-primary-800);
   border-radius: 0.5rem;
   padding: 0.8rem;
-  margin-bottom: 1rem;
+  margin: 0 auto 1rem;
 }
 
 .review::before {
@@ -152,6 +152,7 @@ blockquote {
   color: var(--clr-neutral-200);
   border-radius: 0.5rem;
   text-align: start;
+  margin: 0 auto;
 }
 
 .customer-picture {
