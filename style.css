@@ -167,21 +167,30 @@ blockquote {
   gap: 1.5rem;
 }
 
-@media (min-width: 70rem) {
-  .container {
-    text-align: start;
-    width: 70rem;
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+@media (min-width: 50em) {
+  section {
+    --fs-title: 3rem;
+    grid-template-columns: repeat(2, 1fr);
     place-items: start;
-    row-gap: 2rem;
-    margin: 0;
   }
 
-  .top-section {
+  header {
+    text-align: start;
+  }
+
+  .section__title {
+    margin-left: 0;
+  }
+
+  .has-flex {
+    flex-direction: row;
+  }
+
+  .quotes {
     grid-column: span 2;
-    margin-bottom: 0;
+  }
+  .quote:not(:first-child) {
+    transform: translateY(1rem);
   }
 
   .top-section-title {
