@@ -38,6 +38,10 @@ h6 {
   overflow-wrap: break-word;
 }
 
+ul {
+  list-style: none;
+}
+
 /* Reduce line-height for large text */
 h1 {
   line-height: 0.8;
