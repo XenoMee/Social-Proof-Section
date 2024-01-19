@@ -134,20 +134,14 @@ blockquote {
   margin-bottom: 1rem;
 }
 
-.rating {
-  /* width: 20rem; */
-  /* margin: 0 auto; */
-}
-
-.rating::before {
+.review::before {
   content: "";
-  width: 30%;
+  width: 6.25rem;
   height: 1rem;
   display: block;
-  margin: 0 auto;
+  margin: 0 auto 1rem;
   background-image: url("./images/icon-star.svg");
   background-repeat: space;
-  margin-bottom: 1rem;
 }
 
 /* .quotes {
