@@ -167,11 +167,12 @@ blockquote {
   gap: 1.5rem;
 }
 
-@media (min-width: 50em) {
+@media (min-width: 53em) {
   section {
     --fs-title: 3rem;
     grid-template-columns: repeat(2, 1fr);
     place-items: start;
+    /* max-width: 70rem; */
   }
 
   .intro {
@@ -190,6 +191,7 @@ blockquote {
 
   .ratings {
     grid-column: 2/3;
+    width: 100%;
   }
 
   .quotes {
