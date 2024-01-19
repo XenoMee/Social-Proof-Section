@@ -133,6 +133,11 @@ blockquote {
   border-radius: 0.5rem;
   padding: 0.8rem;
   margin: 0 auto 1rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
 }
 
 .review::before {
@@ -140,7 +145,7 @@ blockquote {
   width: 6.25rem;
   height: 1rem;
   display: block;
-  margin: 0 auto 1rem;
+  margin: 0 auto;
   background-image: url("./images/icon-star.svg");
   background-repeat: space;
 }
@@ -168,11 +173,20 @@ blockquote {
 }
 
 @media (min-width: 53em) {
+  body {
+    margin: 0;
+  }
+
   section {
     --fs-title: 3rem;
-    grid-template-columns: repeat(2, 1fr);
-    place-items: start;
+    --content-spacing: 5rem 0;
+    grid-template-columns: 1fr 1.5fr;
     max-width: 70rem;
+  }
+
+  .has-flex,
+  .review {
+    flex-direction: row;
   }
 
   .intro {
@@ -185,13 +199,32 @@ blockquote {
     margin-left: 0;
   }
 
-  .has-flex {
-    flex-direction: row;
-  }
-
   .ratings {
     grid-column: 2/3;
-    width: 100%;
+    justify-self: center;
+  }
+
+  .review:first-of-type {
+    transform: translateX(-3rem);
+    margin-left: 0;
+  }
+
+  .review:last-of-type {
+    transform: translateX(3rem);
+    margin-right: 0;
+  }
+
+  .quote:nth-child(2) {
+    transform: translateY(1rem);
+  }
+
+  .quote:nth-child(3) {
+    transform: translateY(2rem);
+  }
+
+  .review::before {
+    margin: 0;
+    margin-left: 1rem;
   }
 
   .quotes {
