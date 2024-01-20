@@ -140,16 +140,6 @@ blockquote {
   gap: 1rem;
 }
 
-.review::before {
-  content: "";
-  width: 6.25rem;
-  height: 1rem;
-  display: block;
-  margin: 0 auto;
-  background-image: url("./images/icon-star.svg");
-  background-repeat: space;
-}
-
 .quote {
   max-width: 25rem;
   padding: var(--content-padding);
