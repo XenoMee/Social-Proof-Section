@@ -171,7 +171,7 @@ blockquote {
   .container {
     --fs-title: 3rem;
     --content-spacing: 5rem 0;
-    grid-template-columns: 1fr 1.5fr;
+    grid-template-columns: 1fr 1.8fr;
     max-width: 67rem;
   }
 
