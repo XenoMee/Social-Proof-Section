@@ -24,7 +24,6 @@
 /* Remove default margin and padding */
 * {
   margin: 0;
-  padding: 0;
 }
 
 /* Avoid text overflows */
@@ -40,6 +39,7 @@ h6 {
 
 ul {
   list-style: none;
+  padding: 0;
 }
 
 /* Reduce line-height for large text */
@@ -69,7 +69,7 @@ body {
   font-family: var(--ff-base);
   font-weight: var(--fw-regular);
   line-height: 1.5;
-  margin: 1.5rem;
+  margin: 0rem 1.5rem;
 
   min-height: 100svh;
   display: grid;
@@ -151,7 +151,7 @@ blockquote {
 }
 
 .quote {
-  max-width: 22rem;
+  max-width: 25rem;
   padding: var(--content-padding);
   background-color: var(--clr-primary-800);
   color: var(--clr-neutral-200);
@@ -173,10 +173,6 @@ blockquote {
 }
 
 @media (min-width: 53em) {
-  body {
-    margin: 0;
-  }
-
   section {
     --fs-title: 3rem;
     --content-spacing: 5rem 0;
@@ -190,9 +186,8 @@ blockquote {
   }
 
   .intro {
-    grid-column: 1/ 2;
-    text-align: start;
     max-width: 25rem;
+    text-align: start;
   }
 
   .section__title {
