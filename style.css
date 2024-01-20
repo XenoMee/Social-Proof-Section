@@ -145,6 +145,10 @@ blockquote {
   gap: 0.5rem;
 }
 
+.review > img {
+  max-width: 1rem;
+}
+
 .quote {
   max-width: 25rem;
   padding: var(--content-padding);
