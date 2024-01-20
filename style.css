@@ -172,7 +172,7 @@ blockquote {
     --fs-title: 3rem;
     --content-spacing: 5rem 0;
     grid-template-columns: 1fr 1.5fr;
-    max-width: 70rem;
+    max-width: 67rem;
   }
 
   .has-flex,
@@ -181,7 +181,6 @@ blockquote {
   }
 
   .intro {
-    max-width: 25rem;
     text-align: start;
   }
 
