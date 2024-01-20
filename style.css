@@ -76,7 +76,7 @@ body {
   place-content: center;
 }
 
-section {
+.container {
   --content-spacing: 2rem;
   --content-padding: 2.2rem;
   --fs-title: 2.3rem;
@@ -173,7 +173,7 @@ blockquote {
 }
 
 @media (min-width: 53em) {
-  section {
+  .container {
     --fs-title: 3rem;
     --content-spacing: 5rem 0;
     grid-template-columns: 1fr 1.5fr;
