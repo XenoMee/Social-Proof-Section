@@ -190,18 +190,16 @@ blockquote {
 
   .ratings {
     grid-column: 2/3;
-    justify-self: center;
+    justify-self: end;
   }
 
-  .review:first-of-type {
+  /* .review:first-of-type {
+    transform: translateX(-6rem);
+  }
+
+  .review:nth-child(2) {
     transform: translateX(-3rem);
-    margin-left: 0;
-  }
-
-  .review:last-of-type {
-    transform: translateX(3rem);
-    margin-right: 0;
-  }
+  } */
 
   .quote:nth-child(2) {
     transform: translateY(1rem);
