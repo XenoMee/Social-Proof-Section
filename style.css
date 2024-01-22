@@ -164,6 +164,10 @@ blockquote {
   border-radius: 50%;
 }
 
+.customer-name {
+  line-height: 1;
+}
+
 /* Utility classes */
 .has-flex {
   display: flex;
